@@ -2,6 +2,7 @@
   "name": "kwsp-cares",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://taylorxcampos.github.io/kwspcares-1/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
