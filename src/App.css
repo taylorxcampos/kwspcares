@@ -26,7 +26,7 @@ body {
   left: 0;
   position: absolute;
   text-align: center;
-  top: 200px;
+  top: 150px;
   width: 100%;
   color: white;
 }
@@ -109,7 +109,7 @@ body {
 
 .card-bronze {
   /* border-top: 5px solid black !important; */
-  min-height: 275px;
+  min-height: 299px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
   background-color: whitesmoke;
@@ -124,7 +124,7 @@ body {
 
 .card-silver {
   /* border-top: 5px solid black !important; */
-  min-height: 275px;
+  min-height: 299px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 100px;
   background-color: whitesmoke;
@@ -138,7 +138,7 @@ body {
 }
 .card-gold {
   /* border-top: 5px solid black !important; */
-  min-height: 275px;
+  min-height: 299px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 100px;
   background-color: whitesmoke;
@@ -152,7 +152,7 @@ body {
 }
 .card-platinum {
   /* border-top: 5px solid black !important; */
-  min-height: 275px;
+  min-height: 299px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 100px;
   background-color: whitesmoke;
@@ -165,7 +165,7 @@ body {
   }
 }
 .card-ind {
-  min-height: 231px;
+  min-height: 255px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   background-color: whitesmoke;
@@ -179,6 +179,7 @@ body {
 }
 
 .card-pin {
+  min-height: 255px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   background-color: whitesmoke;

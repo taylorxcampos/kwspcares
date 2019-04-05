@@ -15,7 +15,8 @@ class App extends Component {
         <div className="header-content">
           <img src={KW} className="logo" />
           <img src={RedDay} className="red-day-logo" />
-          <img src={Gif} className="gif" /> 
+          <img src={Gif} className="gif" />
+           
           <div className="header-text">
             <h1 style={{ letterSpacing: "5px" }} className="title">
               ANNUAL BOWL-A-THON
@@ -276,9 +277,11 @@ class App extends Component {
 
                 <p
                   style={{
-                    marginBottom: "80px",
+                    marginBottom: "30px",
                     textAlign: "center",
-                    width: "100%"
+                    width: "80%",
+                    marginLeft: "auto",
+                    marginRight: "auto"
                   }}
                 >
                   "Friends Helping Friends" (Federal Tax ID 27-1260554) is a
@@ -353,7 +356,8 @@ class App extends Component {
           </div>
           <div className="mike">
             <h6>
-              For more information contact Mike Little/Laura Ianiro 732-797.9001
+              For more information contact Mike Little/Laura Ianiro <br /> P:
+              732-797-9001
             </h6>
           </div>
         </div>
