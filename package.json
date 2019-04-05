@@ -2,7 +2,7 @@
   "name": "kwsp-cares",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taylorxcampos.github.io/kwspcares-1/",
+  "homepage": "http://www.kwspcares.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
@@ -11,6 +11,8 @@
     "reactstrap": "^8.0.0"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
