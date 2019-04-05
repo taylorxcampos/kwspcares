@@ -15,8 +15,7 @@ class App extends Component {
         <div className="header-content">
           <img src={KW} className="logo" />
           <img src={RedDay} className="red-day-logo" />
-          <img src={Gif} className="gif" />
-           
+          <img src={Gif} className="gif" /> 
           <div className="header-text">
             <h1 style={{ letterSpacing: "5px" }} className="title">
               ANNUAL BOWL-A-THON
