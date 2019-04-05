@@ -18,7 +18,9 @@ class App extends Component {
           <img src={Gif} className="gif" />
            
           <div className="header-text">
-            <h1 style={{ letterSpacing: "5px" }}>ANNUAL BOWL-A-THON</h1>
+            <h1 style={{ letterSpacing: "5px" }} className="title">
+              ANNUAL BOWL-A-THON
+            </h1>
             <p style={{ fontWeight: "100", fontStretch: "expanded" }}>
               All proceeds to benefit:
             </p>
@@ -98,16 +100,7 @@ class App extends Component {
                 THE MINIMUN GOAL FOR EACH TEAM MEMBER IS TO RAISE $200 - $1000
                 PER TEAM
               </h3>
-              <p
-                style={{
-                  textAlign: "center",
-                  marginBottom: "50px",
-                  marginLeft: "auto",
-                  marginRight: "auto",
-                  width: "50%",
-                  paddingTop: "20px"
-                }}
-              >
+              <p className="each-team">
                 Each KW Relator will be the Captain of a bowling team. The
                 Captain will bring 4 other team members from outside the
                 company. There are several ways to sponsor . . .
@@ -295,7 +288,7 @@ class App extends Component {
                   for local friends in need - WITH ALL PROCEEDS GOING DIRECTLY
                   TO THE FAMILIES!
                 </p>
-                <Col lg="12">
+                <Col lg="12" style={{ paddingLeft: "0px" }}>
                   <iframe
                     className="video"
                     src="https://player.vimeo.com/video/244536598"
