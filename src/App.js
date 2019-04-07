@@ -25,7 +25,7 @@ class App extends Component {
               All proceeds to benefit:
             </p>
             <p style={{ fontSize: "18px" }}>
-              <b>2019 Benefeciearies Patrick and Tyler Geisler</b>
+              <b>2019 Beneficiaries Patrick and Tyler Giesler</b>
             </p>
             <a
               href="#about-them"
@@ -80,11 +80,11 @@ class App extends Component {
                       for business and help the community in some way, such as
                       cleaning up the beaches, helping in a community
                       shelter/food bank, or raising money for a non profit. This
-                      year, Keller Williams Shore Properties in Toms River would
-                      be honored to raise money for Friends Helping Friends of
-                      New Jersey, a local charity that raises funds to help
-                      those in need of assistance, with ALL proceeds going
-                      directly to the families!
+                      year, Keller Williams Shore Properties in Toms River is
+                      honored to raise money for Friends Helping Friends of New
+                      Jersey, a local charity that raises funds to help those in
+                      need of assistance, with ALL proceeds going directly to
+                      the families!
                     </p>
                   </CardBody>
                 </Card>
@@ -97,13 +97,13 @@ class App extends Component {
             <Container>
               <h1 style={{ textAlign: "center" }}>GET INVOLVED</h1>
               <h3 style={{ textAlign: "center", color: "#b40101" }}>
-                THE MINIMUN GOAL FOR EACH TEAM MEMBER IS TO RAISE $200 - $1000
-                PER TEAM
+                THE MINIMUM GOAL FOR EACH TEAM MEMBER IS TO RAISE $200 PER
+                MEMBER - $1000 PER TEAM
               </h3>
               <p className="each-team">
-                Each KW Relator will be the Captain of a bowling team. The
-                Captain will bring 4 other team members from outside the
-                company. There are several ways to sponsor . . .
+                Each Keller Williams Realtor will be the Captain of a bowling
+                team. The Captain will bring 4 other team members from outside
+                the company. There are several ways to sponsor . . .
               </p>
               <div className="cards">
                 <Row>
@@ -156,11 +156,13 @@ class App extends Component {
                   </Col>
                 </Row>
 
-                <h3>Corporate Sponsor Donations:</h3>
-                <p>
-                  Check must be recieved by 4/25/19 for name to appear on
-                  marketing materials
-                </p>
+                <h1 style={{ textAlign: "center", marginTop: "30px" }}>
+                  Corporate Sponsor Donations
+                </h1>
+                <h3 style={{ textAlign: "center", color: "#b40101" }}>
+                  Check must be recieved by April 25th, 2019 for name to appear
+                  on marketing materials
+                </h3>
                 <br />
                 <Row>
                   <Col md="12" lg="3">
@@ -214,8 +216,9 @@ class App extends Component {
                     <Card className="card-gold">
                       <CardBody>
                         <h4>Gold</h4>
-                        <b>$2500</b> - includes items above plus table at event
-                        and video screen advertising above bowling lane
+                        <b>$2500</b> - includes everything in the previous level
+                        plus, table at event and video screen advertising above
+                        bowling lane
                       </CardBody>
                       <Button
                         style={{
@@ -238,9 +241,9 @@ class App extends Component {
                     <Card className="card-platinum">
                       <CardBody>
                         <h4>Platinum</h4>
-                        <b>$5000</b> - includes items above plus digital
-                        advertising on KWSP Public Digital Billboard through the
-                        2019 season
+                        <b>$5000</b> - includes everything in the previous level
+                        plus, digital advertising on KWSP Public Digital
+                        Billboard through the 2019 season
                       </CardBody>
                       <Button
                         style={{
@@ -272,7 +275,7 @@ class App extends Component {
                     width: "100%"
                   }}
                 >
-                  ABOUT THE GEISLER BROTHERS
+                  ABOUT THE GIESLER BROTHERS
                 </h2>
 
                 <p
@@ -312,43 +315,44 @@ class App extends Component {
                     They are good, hard working boys in a very difficult time.
                     Pat and Tyler lost their father at a very young age, then
                     had to deal with being abandoned. Their grandmother, who
-                    they called Mom & Great-Grandmother lost the long-time
-                    family home to Super Storm Sandy. They lost their home &
-                    personal belongings. Homeless for a time then renting for a
-                    while, being evicted when their great grandmother passed
-                    away, homeless once again. Over the past few years they have
-                    bounced around from rental homes and hotel rooms. At times,
-                    have lived out of their mini-van. Throughout this time with
-                    the help of the Brick Township High School community, Pat
-                    and Tyler have remained focused on their goals. They each
-                    played 3 varsity sports throughout High School, while
-                    holding down full time jobs to help "Mom" with the bills.
-                    Pat and Tyler would come in from practice, shower, get
-                    dressed, and go to work each night after practices and on
-                    the weekends. The most amazing thing about Pat and Tyler is
-                    they each have NEVER missed a lifting, training or High
-                    School sport practice for any of the teams they were on
-                    during their 4 years in High School!!! They were always the
-                    hardest working boys on their teams. Since graduating from
-                    H.S. in 2018, the boys and "Mom" have been living in Wenke's
-                    Motel in Point Pleasant. They have been working full-time at
-                    Wendy's in Brick to help "Mom" with the bills along with
-                    attending Ocean County College. Soon after graduation "Mom"
-                    was diagnosed with cancer and had been in and out of
-                    hospitals until she recently passed away. The boys are
-                    currently on their own at the ages of 18 and 19. They ride
-                    their bikes to work or Uber if the weather is bad. They are
-                    currently trying to balance their college classes around
-                    their work schedule, and deal with the recent loss of "Mom".
-                    We are asking you to help these boys get their adult lives
-                    started off on the right foot. Remember, any amount
-                    whatsoever is a help, thank you very much. 100% of all money
-                    collected is going to pay for food, future rent payments,
-                    obtaining driver licenses, securing a vehicle, and helping
-                    them create a stable and productive life. Thanks again, we
-                    appreciate any and all help. Please look for updates, as we
-                    will be sharing all the progress that is made with all your
-                    help and support!
+                    they called Mom & Great-Grandmother stepped up to raise the
+                    boys and unfortunately they lost their long-time family home
+                    to Super Storm Sandy. Sandy took not only their home, but
+                    all their personal belongings as well. Homeless for a time
+                    then renting for a while, being evicted when their great
+                    grandmother passed away, rendering them homeless once again.
+                    Over the past few years they have bounced around from rental
+                    homes and hotel rooms. At times, have lived out of their
+                    mini-van. Throughout this time with the help of the Brick
+                    Township High School community, Pat and Tyler have remained
+                    focused on their goals. They each played 3 varsity sports
+                    throughout High School, while holding down full time jobs to
+                    help "Mom" with the bills. Pat and Tyler would come in from
+                    practice, shower, get dressed, and go to work each night
+                    after practices and on the weekends. The most amazing thing
+                    about Pat and Tyler is they each have NEVER missed a
+                    lifting, training or High School sport practice for any of
+                    the teams they were on during their 4 years in High
+                    School!!! They were always the hardest working boys on their
+                    teams. Since graduating from H.S. in 2018, the boys and
+                    "Mom" have been living in Wenke's Motel in Point Pleasant.
+                    They have been working full-time at Wendy's in Brick to help
+                    "Mom" with the bills along with attending Ocean County
+                    College. Soon after graduation "Mom" was diagnosed with
+                    cancer and had been in and out of hospitals until she
+                    recently passed away. The boys are currently on their own at
+                    the ages of 18 and 19. They ride their bikes to work or Uber
+                    if the weather is bad. They are currently trying to balance
+                    their college classes around their work schedule, and deal
+                    with the recent loss of "Mom". We are asking you to help
+                    these boys get their adult lives started off on the right
+                    foot. Remember, any amount whatsoever is a help, thank you
+                    very much. The funds raised are going to pay for food,
+                    future rent payments, obtaining driver licenses, securing a
+                    vehicle, and helping them create a stable and productive
+                    life. Thanks again, we appreciate any and all help. Please
+                    look for updates, as we will be sharing all the progress
+                    that is made with all your help and support!
                   </p>
                 </Col>
               </Row>
@@ -356,8 +360,8 @@ class App extends Component {
           </div>
           <div className="mike">
             <h6>
-              For more information contact Mike Little/Laura Ianiro <br /> P:
-              732-797-9001
+              For more information contact Keller Williams Shore Properties{" "}
+              <br /> P: 732-797-9001
             </h6>
           </div>
         </div>
