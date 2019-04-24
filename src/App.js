@@ -15,8 +15,7 @@ class App extends Component {
         <div className="header-content">
           <img src={KW} className="logo" />
           <img src={RedDay} className="red-day-logo" />
-          <img src={Gif} className="gif" />
-           
+          <img src={Gif} className="gif" /> 
           <div className="header-text">
             <h1 style={{ letterSpacing: "5px" }} className="title">
               ANNUAL BOWL-A-THON
@@ -262,6 +261,22 @@ class App extends Component {
                       </Button>
                     </Card>
                   </Col>
+                  <div
+                    style={{
+                      textAlign: "center",
+                      width: "100%",
+                      color: "rgb(180, 1, 1) !important",
+                      fontSize: "20px"
+                    }}
+                  >
+                    <a
+                      href="mailto:info@kwspcares.com"
+                      style={{ color: "rgb(180, 1, 1)" }}
+                      rel="noopener noreferrer"
+                    >
+                      Corporate sponsors email your logo to info@kwspcares.com
+                    </a>
+                  </div>
                 </Row>
               </div>
             </Container>
