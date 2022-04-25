@@ -24,7 +24,7 @@ class App extends Component {
               All proceeds to benefit:
             </p>
             <p style={{ fontSize: '28px' }}>
-              <b>"DINE ON US"</b>
+              <b>DINE ON US</b>
             </p>
             {/* <a
               href='#about-them'
@@ -280,7 +280,7 @@ class App extends Component {
               </div>
             </Container>
           </Row>
-          {/* <div className='about-them' id='about-them'>
+          <div className='about-them' id='about-them'>
             <Container>
               <Row>
                 <h2
@@ -371,7 +371,7 @@ class App extends Component {
                 </Col>
               </Row>
             </Container>
-          </div> */}
+          </div>
           <div className='mike'>
             <h6>
               For more information contact Michael Little/Laura Ianiro <br /> P:

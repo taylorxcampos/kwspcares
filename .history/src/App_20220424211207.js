@@ -1,42 +1,43 @@
-import React, { Component } from 'react';
-import './App.css';
-import KW from './kw-logo.png';
-import RedDay from './redday.png';
-import Gif from './giphy.gif';
-import { Row, Col, Container, Button, Card, CardBody } from 'reactstrap';
+import React, { Component } from "react";
+import "./App.css";
+import KW from "./kw-logo.png";
+import RedDay from "./redday.png";
+import Gif from "./giphy.gif";
+import { Row, Col, Container, Button, Card, CardBody } from "reactstrap";
 
 class App extends Component {
   render() {
     return (
-      <div className='app-container'>
+      <div className="app-container">
         {/* <div id="mybutton">
           <button class="donate">$</button>
         </div> */}
-        <div className='header-content'>
-          <img src={KW} className='logo' />
-          <img src={RedDay} className='red-day-logo' />
-          <img src={Gif} className='gif' /> 
-          <div className='header-text'>
-            <h1 style={{ letterSpacing: '5px' }} className='title'>
+        <div className="header-content">
+          <img src={KW} className="logo" />
+          <img src={RedDay} className="red-day-logo" />
+          <img src={Gif} className="gif" />
+           
+          <div className="header-text">
+            <h1 style={{ letterSpacing: "5px" }} className="title">
               ANNUAL BOWL-A-THON
             </h1>
-            <p style={{ fontWeight: '100', fontStretch: 'expanded' }}>
+            <p style={{ fontWeight: "100", fontStretch: "expanded" }}>
               All proceeds to benefit:
             </p>
-            <p style={{ fontSize: '28px' }}>
-              <b>"DINE ON US"</b>
+            <p style={{ fontSize: "18px" }}>
+              <b>2019 Beneficiaries Patrick and Tyler Giesler</b>
             </p>
-            {/* <a
-              href='#about-them'
-              style={{ color: 'white', textDecoration: 'underline' }}
+            <a
+              href="#about-them"
+              style={{ color: "white", textDecoration: "underline" }}
             >
               Click here to read their whole story
-            </a> */}
+            </a>
             <br />
             <Button
-              href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-              target='_blank'
-              style={{ marginTop: '0px' }}
+              href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+              target="_blank"
+              style={{ marginTop: "10px" }}
             >
               Donate Now
             </Button>
@@ -44,24 +45,24 @@ class App extends Component {
         </div>
 
         <Container>
-          <div className='cards'>
-            <Row style={{ width: '100%' }}>
-              <Col md='5'>
-                <Card className='card-www'>
+          <div className="cards">
+            <Row style={{ width: "100%" }}>
+              <Col md="5">
+                <Card className="card-www">
                   <CardBody>
-                    <h4 className='red-header'>When</h4>
+                    <h4 className="red-header">When</h4>
                     <p>
-                      <h5>Thursday May 12, 2022</h5>
-                      6-7PM Registration
+                      <h5>Thursday May 9, 2019</h5>
+                      6-7PM Registration/Check-In
                       <br />
-                      7-9PM Shotgun Bowling!
+                      7-9PM Bowling
                     </p>
                   </CardBody>
                 </Card>
 
-                <Card className='card-www'>
+                <Card className="card-www">
                   <CardBody>
-                    <h4 className='red-header'>Where</h4>
+                    <h4 className="red-header">Where</h4>
                     <p>
                       <h5>Finnigans Bar and Bowl</h5>
                       101 Locust Street, Lakewood NJ 08701
@@ -69,20 +70,21 @@ class App extends Component {
                   </CardBody>
                 </Card>
               </Col>
-              <Col md='7'>
-                <Card style={{ minHeight: '381px' }} className='card-www'>
+              <Col md="7">
+                <Card style={{ minHeight: "381px" }} className="card-www">
                   <CardBody>
-                    <h4 className='red-header'>Why</h4>
+                    <h4 className="red-header">Why</h4>
                     <p>
-                      Keller Williams has RED Day on the second Thursday of May
-                      every year, where all 900 offices and180,000 agents close
+                      Keller Williams has RED Day on the second Thursday in May
+                      every year, where all 900 offices and 180,000 agents close
                       for business and help the community in some way, such as
                       cleaning up the beaches, helping in a community
-                      shelter/food bank, or raising money for non-profits. This
-                      Year, Keller Williams Shore Properties AND Keller Williams
-                      Preferred Properties would be honored to raise money for
-                      “Dine on Us” to thank local active Military for their
-                      service and help support their local families.
+                      shelter/food bank, or raising money for a non profit. This
+                      year, Keller Williams Shore Properties in Toms River is
+                      honored to raise money for Friends Helping Friends of New
+                      Jersey, a local charity that raises funds to help those in
+                      need of assistance, with ALL proceeds going directly to
+                      the families!
                     </p>
                   </CardBody>
                 </Card>
@@ -90,46 +92,46 @@ class App extends Component {
             </Row>
           </div>
         </Container>
-        <div className='get-involved'>
-          <Row style={{ width: '100%' }}>
+        <div className="get-involved">
+          <Row style={{ width: "100%" }}>
             <Container>
-              <h1 style={{ textAlign: 'center' }}>GET INVOLVED</h1>
-              <h3 style={{ textAlign: 'center', color: '#b40101' }}>
-                THE MINIMUM GOAL FOR EACH TEAM MEMBER IS TO RAISE{' '}
-                <b>AT LEAST $300 OR $1500 PER TEAM</b>
+              <h1 style={{ textAlign: "center" }}>GET INVOLVED</h1>
+              <h3 style={{ textAlign: "center", color: "#b40101" }}>
+                THE MINIMUM GOAL FOR EACH TEAM MEMBER IS TO RAISE $200 PER
+                MEMBER - $1000 PER TEAM
               </h3>
-              <p className='each-team'>
+              <p className="each-team">
                 Each Keller Williams Realtor will be the Captain of a bowling
                 team. The Captain will bring 4 other team members from outside
                 the company. There are several ways to sponsor . . .
               </p>
-              <div className='cards'>
+              <div className="cards">
                 <Row>
-                  <Col md='12' lg='4' style={{ marginLeft: 'auto' }}>
-                    <Card className='card-ind'>
+                  <Col md="12" lg="4" style={{ marginLeft: "auto" }}>
+                    <Card className="card-ind">
                       <CardBody>
                         <h4>Friend/Family/Fixed Donation</h4>
                         <b>$10, $20, $50, etc.</b> - any amount you want
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '50%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
                     </Card>
                   </Col>
-                  <Col md='12' lg='4' style={{ marginRight: 'auto' }}>
-                    <Card className='card-pin'>
+                  <Col md="12" lg="4" style={{ marginRight: "auto" }}>
+                    <Card className="card-pin">
                       <CardBody>
                         <h4>Friend/Family Per-Pin Donation</h4>
                         <b>ex. $0.50 per pin x 200 score = $100 donation</b> -
@@ -137,16 +139,16 @@ class App extends Component {
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '50%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
@@ -154,87 +156,89 @@ class App extends Component {
                   </Col>
                 </Row>
 
-                <h1 style={{ textAlign: 'center', marginTop: '30px' }}>
+                <h1 style={{ textAlign: "center", marginTop: "30px" }}>
                   Corporate Sponsor Donations
                 </h1>
-                <h3 style={{ textAlign: 'center', color: '#b40101' }}>
-                  Check must be received by <b>May 9th, 2022</b> for name to
-                  appear on marketing materials
+                <h3 style={{ textAlign: "center", color: "#b40101" }}>
+                  Check must be recieved by April 25th, 2019 for name to appear
+                  on marketing materials
                 </h3>
                 <br />
                 <Row>
-                  {/* <Col md='12' lg='6'>
-                    <Card className='card-bronze'>
+                  <Col md="12" lg="3">
+                    <Card className="card-bronze">
                       <CardBody>
                         <h4>Bronze</h4>
                         <b>$250</b> - includes poster sized signage
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '50%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
                     </Card>
-                  </Col> */}
-                  <Col md='12' lg='5' style={{ marginLeft: 'auto' }}>
-                    <Card className='card-silver'>
+                  </Col>
+                  <Col md="12" lg="3">
+                    <Card className="card-silver">
                       <CardBody>
                         <h4>Silver</h4>
-                        <b>$300</b> - includes poster sized signage
+                        <b>$1000</b> - includes name on the back of Red Day
+                        t-shirt & poster sized signage
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '40%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
                     </Card>
                   </Col>
-                  <Col md='12' lg='5' style={{ marginRight: 'auto' }}>
-                    <Card className='card-gold'>
+                  <Col md="12" lg="3">
+                    <Card className="card-gold">
                       <CardBody>
                         <h4>Gold</h4>
-                        <b>$1500</b> - includes poster plus table at event and
-                        video screening advertising above bowling lane
+                        <b>$2500</b> - includes everything in the previous level
+                        plus, table at event and video screen advertising above
+                        bowling lane
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '40%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
                     </Card>
                   </Col>
-                  {/* <Col md='12' lg='3'>
-                    <Card className='card-platinum'>
+                  <Col md="12" lg="3">
+                    <Card className="card-platinum">
                       <CardBody>
                         <h4>Platinum</h4>
                         <b>$5000</b> - includes everything in the previous level
@@ -243,34 +247,34 @@ class App extends Component {
                       </CardBody>
                       <Button
                         style={{
-                          bottom: '0',
-                          display: 'block',
-                          width: '50%',
-                          textAlign: 'center',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          marginBottom: '15px',
+                          bottom: "0",
+                          display: "block",
+                          width: "50%",
+                          textAlign: "center",
+                          marginLeft: "auto",
+                          marginRight: "auto",
+                          marginBottom: "15px"
                         }}
-                        href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
-                        target='_blank'
+                        href="https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online"
+                        target="_blank"
                       >
                         Donate
                       </Button>
                     </Card>
-                  </Col> */}
+                  </Col>
                   <div
                     style={{
-                      textAlign: 'center',
-                      width: '100%',
-                      color: 'rgb(180, 1, 1) !important',
-                      fontSize: '20px',
+                      textAlign: "center",
+                      width: "100%",
+                      color: "rgb(180, 1, 1) !important",
+                      fontSize: "20px"
                     }}
                   >
                     <h3>
                       <a
-                        href='mailto:info@kwspcares.com'
-                        style={{ color: 'rgb(180, 1, 1)' }}
-                        rel='noopener noreferrer'
+                        href="mailto:info@kwspcares.com"
+                        style={{ color: "rgb(180, 1, 1)" }}
+                        rel="noopener noreferrer"
                       >
                         Corporate sponsors email your logo to info@kwspcares.com
                       </a>
@@ -280,13 +284,13 @@ class App extends Component {
               </div>
             </Container>
           </Row>
-          {/* <div className='about-them' id='about-them'>
+          <div className="about-them" id="about-them">
             <Container>
               <Row>
                 <h2
                   style={{
-                    textAlign: 'center',
-                    width: '100%',
+                    textAlign: "center",
+                    width: "100%"
                   }}
                 >
                   ABOUT THE GIESLER BROTHERS
@@ -294,11 +298,11 @@ class App extends Component {
 
                 <p
                   style={{
-                    marginBottom: '30px',
-                    textAlign: 'center',
-                    width: '80%',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
+                    marginBottom: "30px",
+                    textAlign: "center",
+                    width: "80%",
+                    marginLeft: "auto",
+                    marginRight: "auto"
                   }}
                 >
                   "Friends Helping Friends" (Federal Tax ID 27-1260554) is a
@@ -307,16 +311,16 @@ class App extends Component {
                   for local friends in need - WITH ALL PROCEEDS GOING DIRECTLY
                   TO THE FAMILIES!
                 </p>
-                <Col lg='12' style={{ paddingLeft: '0px' }}>
+                <Col lg="12" style={{ paddingLeft: "0px" }}>
                   <iframe
-                    className='video'
-                    src='https://player.vimeo.com/video/244536598'
+                    className="video"
+                    src="https://player.vimeo.com/video/244536598"
                     style={{
-                      width: '640px',
-                      height: '360px',
-                      float: 'right',
-                      marginLeft: '20px',
-                      marginBottom: '20px',
+                      width: "640px",
+                      height: "360px",
+                      float: "right",
+                      marginLeft: "20px",
+                      marginBottom: "20px"
                     }}
                     webkitallowfullscreen
                     mozallowfullscreen
@@ -371,11 +375,11 @@ class App extends Component {
                 </Col>
               </Row>
             </Container>
-          </div> */}
-          <div className='mike'>
+          </div>
+          <div className="mike">
             <h6>
-              For more information contact Michael Little/Laura Ianiro <br /> P:
-              732-797-9001
+              For more information contact Keller Williams Shore Properties{" "}
+              <br /> P: 732-797-9001
             </h6>
           </div>
         </div>

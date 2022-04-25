@@ -23,20 +23,20 @@ class App extends Component {
             <p style={{ fontWeight: '100', fontStretch: 'expanded' }}>
               All proceeds to benefit:
             </p>
-            <p style={{ fontSize: '28px' }}>
-              <b>"DINE ON US"</b>
+            <p style={{ fontSize: '18px' }}>
+              <b>2019 Beneficiaries Patrick and Tyler Giesler</b>
             </p>
-            {/* <a
+            <a
               href='#about-them'
               style={{ color: 'white', textDecoration: 'underline' }}
             >
               Click here to read their whole story
-            </a> */}
+            </a>
             <br />
             <Button
               href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
               target='_blank'
-              style={{ marginTop: '0px' }}
+              style={{ marginTop: '10px' }}
             >
               Donate Now
             </Button>
@@ -280,7 +280,7 @@ class App extends Component {
               </div>
             </Container>
           </Row>
-          {/* <div className='about-them' id='about-them'>
+          <div className='about-them' id='about-them'>
             <Container>
               <Row>
                 <h2
@@ -371,10 +371,10 @@ class App extends Component {
                 </Col>
               </Row>
             </Container>
-          </div> */}
+          </div>
           <div className='mike'>
             <h6>
-              For more information contact Michael Little/Laura Ianiro <br /> P:
+              For more information contact Michael Little/Laura Ian <br /> P:
               732-797-9001
             </h6>
           </div>

@@ -23,20 +23,20 @@ class App extends Component {
             <p style={{ fontWeight: '100', fontStretch: 'expanded' }}>
               All proceeds to benefit:
             </p>
-            <p style={{ fontSize: '28px' }}>
-              <b>"DINE ON US"</b>
+            <p style={{ fontSize: '18px' }}>
+              <b>2019 Beneficiaries Patrick and Tyler Giesler</b>
             </p>
-            {/* <a
+            <a
               href='#about-them'
               style={{ color: 'white', textDecoration: 'underline' }}
             >
               Click here to read their whole story
-            </a> */}
+            </a>
             <br />
             <Button
               href='https://sites.google.com/site/friendshelpingfriendsnj2/register-pay-online'
               target='_blank'
-              style={{ marginTop: '0px' }}
+              style={{ marginTop: '10px' }}
             >
               Donate Now
             </Button>
@@ -95,8 +95,8 @@ class App extends Component {
             <Container>
               <h1 style={{ textAlign: 'center' }}>GET INVOLVED</h1>
               <h3 style={{ textAlign: 'center', color: '#b40101' }}>
-                THE MINIMUM GOAL FOR EACH TEAM MEMBER IS TO RAISE{' '}
-                <b>AT LEAST $300 OR $1500 PER TEAM</b>
+                THE MINIMUM GOAL FOR EACH TEAM MEMBER IS TO RAISE $200 PER
+                MEMBER or $1000 PER TEAM
               </h3>
               <p className='each-team'>
                 Each Keller Williams Realtor will be the Captain of a bowling
@@ -186,7 +186,7 @@ class App extends Component {
                       </Button>
                     </Card>
                   </Col> */}
-                  <Col md='12' lg='5' style={{ marginLeft: 'auto' }}>
+                  <Col md='12' lg='6'>
                     <Card className='card-silver'>
                       <CardBody>
                         <h4>Silver</h4>
@@ -196,7 +196,7 @@ class App extends Component {
                         style={{
                           bottom: '0',
                           display: 'block',
-                          width: '40%',
+                          width: '50%',
                           textAlign: 'center',
                           marginLeft: 'auto',
                           marginRight: 'auto',
@@ -209,7 +209,7 @@ class App extends Component {
                       </Button>
                     </Card>
                   </Col>
-                  <Col md='12' lg='5' style={{ marginRight: 'auto' }}>
+                  <Col md='12' lg='6'>
                     <Card className='card-gold'>
                       <CardBody>
                         <h4>Gold</h4>
@@ -220,7 +220,7 @@ class App extends Component {
                         style={{
                           bottom: '0',
                           display: 'block',
-                          width: '40%',
+                          width: '50%',
                           textAlign: 'center',
                           marginLeft: 'auto',
                           marginRight: 'auto',
@@ -280,7 +280,7 @@ class App extends Component {
               </div>
             </Container>
           </Row>
-          {/* <div className='about-them' id='about-them'>
+          <div className='about-them' id='about-them'>
             <Container>
               <Row>
                 <h2
@@ -371,11 +371,11 @@ class App extends Component {
                 </Col>
               </Row>
             </Container>
-          </div> */}
+          </div>
           <div className='mike'>
             <h6>
-              For more information contact Michael Little/Laura Ianiro <br /> P:
-              732-797-9001
+              For more information contact Keller Williams Shore Properties{' '}
+              <br /> P: 732-797-9001
             </h6>
           </div>
         </div>
